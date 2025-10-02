@@ -6,6 +6,12 @@ Run local server
 
 ```bash
 
+# help
+php -h
+
+# local server
+php -S localhost:8080
+
 ```
 
 
