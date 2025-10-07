@@ -20,3 +20,7 @@ php -S localhost:8080
 https://laracasts.com/series/php-for-beginners-2023-edition
 
 https://www.coursera.org/learn/php-mastery-build-web-apps
+
+https://symfonycasts.com/
+
+https://www.shopware.com/de/community/entwickler/

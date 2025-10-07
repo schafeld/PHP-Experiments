@@ -1,0 +1,3 @@
+[submodule "symfony/symfony/starshop"]
+	path = symfony/symfony/starshop
+	url = https://github.com/schafeld/PHP-Experiments
