@@ -45,4 +45,13 @@ cd /starshop
 composer install
 # all works again
 
+# install code style fixer
+composer require cs-fixer-shim
+
+# Symfony auto-linting
+# show cs fixer commands
+./vendor/bin/php-cs-fixer
+# fix styles
+./vendor/bin/php-cs-fixer fix
+
 ```
