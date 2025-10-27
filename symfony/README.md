@@ -55,3 +55,11 @@ composer require cs-fixer-shim
 ./vendor/bin/php-cs-fixer fix
 
 ```
+
+
+## Additions
+
+```bash
+# add Twig templating
+composer require twig
+```
