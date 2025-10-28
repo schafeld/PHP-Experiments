@@ -62,4 +62,29 @@ composer require cs-fixer-shim
 ```bash
 # add Twig templating
 composer require twig
+
+# Add debugger
+composer require debug
+
+# Debug via console
+./bin/console
+# or
+php bin/console
+
+# debug routes
+./bin/console debug:router
+# or
+php bin/console debug:router
+
+# Show available Twig functions, filters ...
+# or
+php bin/console debug:twig
+
+# Find available services in container
+./bin/console debug:container
+
+# display service shortcuts
+./bin/console debug:autowiring
+# search for a specific service about logging
+./bin/console debug:autowiring log
 ```
