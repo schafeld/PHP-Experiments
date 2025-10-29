@@ -104,4 +104,8 @@ composer require symfonycasts/tailwind-bundle
 ./bin/console tailwind:build -w
 # configured in .symfony.local.yaml to auto-start with server
 symfony serve
+
+# Clear Cache – e.g. when template changes are not being rendered:
+php bin/console cache:clear
+
 ```
