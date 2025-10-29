@@ -75,6 +75,8 @@ php bin/console
 ./bin/console debug:router
 # or
 php bin/console debug:router
+# or
+symfony console debug:router
 
 # Show available Twig functions, filters ...
 # or
@@ -87,4 +89,19 @@ php bin/console debug:twig
 ./bin/console debug:autowiring
 # search for a specific service about logging
 ./bin/console debug:autowiring log
+
+# Asset Mapper
+composer require symfony/asset-mapper
+# debug assets, show available asset file paths
+# in locations declared in asset_mapper.yaml
+./bin/console debug:asset
+
+# Add Tailwind
+composer require symfonycasts/tailwind-bundle
+# configure tailwind
+./bin/console tailwind:init
+# build Tailwind (watch mode)
+./bin/console tailwind:build -w
+# configured in .symfony.local.yaml to auto-start with server
+symfony serve
 ```
